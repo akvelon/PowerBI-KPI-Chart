@@ -1,0 +1,26 @@
+{
+  "name": "kpi-chart-by-akvelon",
+  "scripts": {
+    "postinstall": "pbiviz update 1.6.0",
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package"
+  },
+  "devDependencies": {
+    "@types/d3": "3.5.36",
+    "@types/lodash": "4.14.50",
+    "@types/nvd3": "^1.8.5"
+  },
+  "dependencies": {
+    "d3": "3.5.5",
+    "lodash": "4.17.4",
+    "nvd3": "^1.8.5",
+    "powerbi-visuals-utils-colorutils": "0.2.2",
+    "powerbi-visuals-utils-dataviewutils": "1.0.1",
+    "powerbi-visuals-utils-formattingutils": "^3.0.0",
+    "powerbi-visuals-utils-interactivityutils": "0.3.1",
+    "powerbi-visuals-utils-svgutils": "^1.0.0",
+    "powerbi-visuals-utils-tooltiputils": "^0.3.0",
+    "powerbi-visuals-utils-typeutils": "1.0.0"
+  }
+}
